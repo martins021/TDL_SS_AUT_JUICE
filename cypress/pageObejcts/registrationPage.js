@@ -56,6 +56,13 @@ class RegistrationPage extends Base {
   static get loginLoginBtn(){
       return cy.get('#loginButton')
   }
+  static get accountBtn(){
+    return cy.get('#navbarAccount')
+  }
+
+  static get popUP(){
+    return cy.get('#mat-menu-panel-0 > .mat-menu-content')
+}
 }
 
 export default RegistrationPage;

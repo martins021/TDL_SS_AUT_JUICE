@@ -19,7 +19,7 @@ class SearchPage extends Base {
 
   // SCENARIO FOUR
 
-  static get selectLemonJuice(){
+  static get selectJuice(){
       return cy.get("div[class='mat-tooltip-trigger product']")
   }
 
