@@ -102,7 +102,7 @@ context("Juice shop", () => {
       })
     })
 
-    it.only("Buy Girlie T-shirt", () => {
+    it("Buy Girlie T-shirt", () => {
       LoginPage.accountBtn.click()
       LoginPage.loginBtn.click()
       LoginPage.emailInput.type("demo")
